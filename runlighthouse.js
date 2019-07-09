@@ -21,10 +21,10 @@ const fetch = require('node-fetch'); // polyfill
 const minimist = require('minimist');
 
 const CI_HOST = process.env.LIGHTHOUSE_CI_HOST || 'https://lighthouse-ci.appspot.com';
-const API_KEY = process.env.LIGHTHOUSE_API_KEY || process.env.API_KEY;
+const API_KEY = process.env.LIGHTHOUSE_API_KEY || process.env.14ecd45d69ed4e5c93349092083aeb70;
 const RUNNERS = {chrome: 'chrome', wpt: 'wpt'};
 
-if (process.env.API_KEY) {
+if (process.env.14ecd45d69ed4e5c93349092083aeb70) {
   console.log(`Warning: The environment variable API_KEY is deprecated.
     Please use LIGHTHOUSE_API_KEY instead.`);
 }
